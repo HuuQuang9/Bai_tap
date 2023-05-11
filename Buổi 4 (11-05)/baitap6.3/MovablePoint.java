@@ -1,11 +1,10 @@
 package day3.truuTuong.baitap4;
 
 public class MovablePoint implements Movable{
-
-    protected int x ;
-    protected int y;
-    protected int xSpeed;
-    protected int ySpeed;
+     int x ;
+     int y;
+     int xSpeed;
+     int ySpeed;
 
     public MovablePoint(int x, int y, int xSpeed, int ySpeed) {
         this.x = x;
