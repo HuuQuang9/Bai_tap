@@ -1,0 +1,49 @@
+<mxfile host="app.diagrams.net" modified="2023-05-13T04:25:39.148Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="UStbtCpHQiIjTRPuABIb" version="21.1.6" type="device">
+  <diagram name="Trang-1" id="KsSZaBap9w047nVRw1nm">
+    <mxGraphModel dx="1050" dy="549" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="x7aqFJC7B9HVyKy6jmnC-1" value="Order" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="180" y="50" width="220" height="680" as="geometry" />
+        </mxCell>
+        <mxCell id="x7aqFJC7B9HVyKy6jmnC-2" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;- traDa: int&lt;br&gt;- banhMi: int&lt;br&gt;- pho: int&lt;br&gt;- bun: int&lt;br&gt;- coca: int&lt;br&gt;- cafe: int&lt;br&gt;- xoi: int&lt;br&gt;- kem: int&lt;br&gt;- traSua: int&amp;nbsp;&lt;br&gt;- chao: int&lt;/font&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="x7aqFJC7B9HVyKy6jmnC-1">
+          <mxGeometry y="26" width="220" height="184" as="geometry" />
+        </mxCell>
+        <mxCell id="x7aqFJC7B9HVyKy6jmnC-3" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="x7aqFJC7B9HVyKy6jmnC-1">
+          <mxGeometry y="210" width="220" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="x7aqFJC7B9HVyKy6jmnC-4" value="&lt;font style=&quot;font-size: 13px;&quot;&gt;- Order(traDa: int, banhMi: int, pho: int, bun: int, coca: int, cafe: int, xoi: int, kem: int, traSua: int, chao: int ): Order&lt;br&gt;+ getTraDa(): int&amp;nbsp;&lt;br&gt;+ setTraDa(traDa: int): void&amp;nbsp;&lt;br&gt;+ getBanhMi(): int&lt;br&gt;+ setBanhMi(banhMi: int): void&lt;br&gt;+ getPho(): int&lt;br&gt;+ setPho(pho: int): void&lt;br&gt;+ getBun(): int&lt;br&gt;+ setBun(bun: int): void&lt;br&gt;+ getCoca(): int&lt;br&gt;+ setCoca(coca: int): void&lt;br&gt;+ getCafe(): int&lt;br&gt;+ setCafe(cafe: int): void&amp;nbsp;&lt;br&gt;+ getXoi(): int&lt;br&gt;+ setXoi(xoi: int): void&lt;br&gt;+ getKem(): int&lt;br&gt;+ setKem(kem: int): void&lt;br&gt;+ getTraSua(): int&amp;nbsp;&lt;br&gt;+ setTraSua(traSua: int): void&lt;br&gt;+ getChao(): int&lt;br&gt;+ setChao(chao: int): void&lt;br&gt;+ Print(): void&lt;br&gt;+ toString(): void&lt;br&gt;&lt;/font&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="x7aqFJC7B9HVyKy6jmnC-1">
+          <mxGeometry y="218" width="220" height="462" as="geometry" />
+        </mxCell>
+        <mxCell id="x7aqFJC7B9HVyKy6jmnC-5" value="" style="endArrow=none;startArrow=circlePlus;endFill=0;startFill=0;endSize=8;html=1;rounded=0;exitX=1.002;exitY=0.111;exitDx=0;exitDy=0;exitPerimeter=0;entryX=-0.002;entryY=0.111;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="x7aqFJC7B9HVyKy6jmnC-4" target="x7aqFJC7B9HVyKy6jmnC-9">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="390" y="240" as="sourcePoint" />
+            <mxPoint x="560" y="340" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="x7aqFJC7B9HVyKy6jmnC-6" value="&lt;u&gt;Builder&lt;/u&gt;" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="560" y="50" width="220" height="680" as="geometry" />
+        </mxCell>
+        <mxCell id="x7aqFJC7B9HVyKy6jmnC-7" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;- traDa: int&lt;br&gt;- banhMi: int&lt;br&gt;- pho: int&lt;br&gt;- bun: int&lt;br&gt;- coca: int&lt;br&gt;- cafe: int&lt;br&gt;- xoi: int&lt;br&gt;- kem: int&lt;br&gt;- traSua: int&amp;nbsp;&lt;br&gt;- chao: int&lt;/font&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="x7aqFJC7B9HVyKy6jmnC-6">
+          <mxGeometry y="26" width="220" height="184" as="geometry" />
+        </mxCell>
+        <mxCell id="x7aqFJC7B9HVyKy6jmnC-8" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="x7aqFJC7B9HVyKy6jmnC-6">
+          <mxGeometry y="210" width="220" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="x7aqFJC7B9HVyKy6jmnC-9" value="&lt;font style=&quot;font-size: 13px;&quot;&gt;+ reset(): Builder&lt;br&gt;+ setTraDa(traDa: int): Builder&lt;br&gt;+ setBanhMi(banhMi: int): Builder&lt;br&gt;+ setPho(pho: int): Builder&lt;br&gt;+ setBun(bun: int): Builder&lt;br&gt;+ setCoca(coca: int): Builder&lt;br&gt;+ setCafe(cafe: int): Builder&lt;br&gt;+ setXoi(xoi: int): Builder&lt;br&gt;+ setKem(kem: int): Builder&lt;br&gt;+ setTraSua(traSua: int): Builder&lt;br&gt;+ setChao(chao: int): Builder&lt;/font&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="x7aqFJC7B9HVyKy6jmnC-6">
+          <mxGeometry y="218" width="220" height="462" as="geometry" />
+        </mxCell>
+        <mxCell id="x7aqFJC7B9HVyKy6jmnC-10" value="Main" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="390" y="820" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="x7aqFJC7B9HVyKy6jmnC-12" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="x7aqFJC7B9HVyKy6jmnC-10">
+          <mxGeometry y="26" width="160" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="x7aqFJC7B9HVyKy6jmnC-13" value="+ &lt;u&gt;main(): void&amp;nbsp;&lt;/u&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="x7aqFJC7B9HVyKy6jmnC-10">
+          <mxGeometry y="34" width="160" height="26" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
