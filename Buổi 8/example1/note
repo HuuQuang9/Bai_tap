@@ -1,0 +1,6 @@
+1. Tạo 1 interface là IHinhHoc có phương thức: tinhChuVi, tinhDienTich với giá trị trả về là double.
+Xây dựng lớp HinhVuong(tự chọn thuộc tính)implement lại phương thức IHinhHoc.
+Xây dựng lớp HinhTron (tự chọn thuộc tính)implement lại phương thức IHinhHoc.
+Xây dựng 1 lớp Drawable có phương thức draw với tham số truyền vào là 1 class bất kì được
+implement từinterface IHinhHoc, phương thức draw có giá trị trả về là void.
+VD: draw(HinhTront): void sẽ in ra “Vẽ ra HinhTron[r = 50]”;Xây dựng lớp thử nghiệm.
